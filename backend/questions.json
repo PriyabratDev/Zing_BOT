@@ -1,0 +1,31 @@
+[
+    {
+      "question": "How to apply OUTDOOR?",
+      "answer": "1. Open Zing HR app\n2. Go to Time and Attendance section\n3. In the date calendar, select the day for which you want to apply outdoor\n4. Go down, there will be four options: Regularize, Work from Home, Extra time and Outdoor\n5. Click Outdoor\n6. Select date From and To\n7. Select IN and OUT time\n8. Click on apply"
+    },
+    {
+      "question": "How to apply Regularization?",
+      "answer": "1. Open Zing HR app\n2. Go to time and attendance section\n3. In the date calendar, select the day for which you want to apply regularization\n4. Go down, there will be four options: Regularize, Work from home, Extra time, and Outdoor\n5. Click Regularization\n6. Enter your shift time for the day\n7. Write Remark/reason for the Regularization\n8. Click Apply"
+    },
+    {
+      "question": "How to apply Hotel claim?",
+      "answer": "1. Open Zing HR application\n2. Go to Menu\n3. Click on 'claims'\n4. There will be four options\n5. Click on 'Local conveyance'\n6. A claim tab will open\n7. Input Bill date, Bill amount\n8. Select mode of travel\n9. Enter kilometers\n10. The fuel rate will be automatically generated\n11. The claim amount will be automatically generated\n12. Enter starting and ending place of your travel claim\n13. Write the reason in Remark section\n14. Apply"
+    },
+    {
+      "question": "How to apply Food allowance?",
+      "answer": "1. Open Zing HR application\n2. Go to Menu\n3. Click on 'claims'\n4. There will be four options\n5. Click on 'Food allowance'\n6. A claim tab will open\n7. Enter bill date, bill amount\n8. Write the reason for applying claim in remark area\n9. Attach a food bill as proof\n10. Apply"
+    },
+    {
+      "question": "How to apply Hotel accommodation claim?",
+      "answer": "1. Open Zing HR application\n2. Go to Menu\n3. Click on 'claims'\n4. There will be four options\n5. Click on 'Hotel accommodation'\n6. A claim tab will open\n7. Enter bill date, bill amount, and bill number (written on hotel bill)\n8. Select place and enter amount\n9. Write the hotel name\n10. Write the reason for applying the claim in remark section\n11. Attach the photo of real hotel bill for proof\n12. Apply"
+    },
+    {
+      "question": "How to apply leave?",
+      "answer": "1. Open Zing HR application\n2. Go to time and attendance (at the bottom)\n3. Select the date for which you want to apply leave\n4. Scroll down to 'Leave balance' area\n5. This area will show how much leave you have\n6. Choose leave type: Casual, Earned, Comp off, Sick, etc.\n7. Click on the type of leave you want to apply\n8. Enter reason in Remark/Description section\n9. Click Apply"
+    },
+    {
+      "question": "What are the negative village criteria?",
+      "answer": "1. If there is already an OD of our company\n2. If any political activity is reported\n3. Ring leader presence\n4. Loan pipelining record found\n5. Special community dominated area\n6. If at least 2 top MFIs report the village as negative\n7. Natural calamity impacted area\n8. CB rejection rate more than 50%"
+    }
+  ]
+  

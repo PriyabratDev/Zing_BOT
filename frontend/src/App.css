@@ -1,0 +1,163 @@
+/* Dark mode container */
+.chat-container {
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.chat-container-submitted {
+  font-family: 'Segoe UI', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 10%;
+}
+/* Fixed layout after typing */
+.fixed-layout {
+  width: 100%;
+  padding-bottom: 0px;
+}
+
+/* Heading styles */
+.chat-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+/* after submit */
+.submitted-heading {
+  position: relative;
+  width: 80%;
+  top: auto;
+  left: 10%;
+  margin-bottom: 10%;
+  align-self: flex-start;
+  text-align: center;
+  padding-left: 20px;
+  max-width: 700px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;  
+  min-width: 250px;
+}
+
+/* Suggestions below input */
+.suggestions {
+  overflow-y: hidden;
+  list-style-type: none;
+  margin-top: 6px;
+  padding: 5px;
+  width: 100%;
+  background-color: #303030;
+  border: 1px solid #444;
+  border-radius: 6px;
+  position: relative;
+  z-index: 2;
+  max-height: 200px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #555;
+  color: #fff;
+}
+
+.suggestion-item:hover {
+  background-color: #383838;
+}
+
+/* Input container */
+.input-wrapper {
+  position: relative;
+  width: 100%;
+  flex-grow: 1;
+}
+
+/* Input field */
+.textarea-container{
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+.question-input {
+  width: 100%;
+  padding: 12px 50px 12px 15px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  background-color: #303030;
+  color: white;
+  font-size: 15px;
+  resize: vertical;
+  min-height: 40px;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+.question-input::placeholder {
+  color: #aaa;
+}
+
+/* Info text */
+.select-info {
+  font-size: 11px;
+  color: #ccc;
+  margin-top: 4px;
+  text-align: center;
+}
+
+/* Send button */
+.ask-button {
+  height: 30%;
+  min-height: 30px;
+  min-width: 100px;
+  margin: 0px 20px 10px -110px;
+  padding: 6px 10px;
+  align-self: flex-end;
+  background-color: #6198FF;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.ask-button:hover {
+  background-color: #4f85e0;
+}
+
+/* Flex row */
+.input-row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Answer block */
+.answer {
+  margin-top: 20px;
+  animation: fadeIn 0.3s ease-in-out;
+  color: white;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
